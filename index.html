@@ -6,15 +6,16 @@
     <link rel="icon" href="images/favicon.png" />
     <link rel="stylesheet" href="style.css">
 
+    <link rel="stylesheet" href="" />
 </head>
 
-<body>
+<body class="dark-light">
     <div class="header">
-        <div class="topnav">
-            <button type="button">Home</button>
-            <button type="button">Discord</button>
-            <button type="button">News</button>
-            <button type="button">About</button>
+        <div class="topnav dark-dark">
+            <button onclick="location.href='index.html'" type="button" class="active">Home</button>
+            <button onclick="location.href='https://discord.gg/4G2Fvpnmxk'" type="button">Discord</button>
+            <button onclick="location.href='polar_inc.html'" type="button">Polar Inc.</button>
+            <button onclick="location.href='About.html'" type="button">About</button>
         </div>
     </div>
 
@@ -46,9 +47,15 @@
             </tr>
         </tbody>
     </table>
-    <p>also main body</p>
 
-    <footer class="footer content">
+    <h2>Join Discord</h2>
+    <iframe src="https://discord.com/widget?id=374899692187680770&theme=dark" width="350" height="500"
+        allowtransparency="true" frameborder="0"
+        sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+
+
+    <p>end of main stuff and footer begin</p>
+    <footer class="footer dark-dark">
         <div class="footer">
             <a href="About.html"> about me</a>
         </div>

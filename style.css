@@ -1,9 +1,7 @@
 body {
 	margin: 0;
 	text-align: center;
-	color: #ffffff;
-	background-color: rgb(35, 39, 42);
-	/* justify-content: center; */
+	font-family: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 button {
@@ -15,37 +13,53 @@ button {
 	border-radius: 12px;
 }
 
+button:hover {
+	background-color: white;
+	color: black;
+}
+
+button:focus {
+	background-color: white;
+	border-color: red;
+}
+
+/* here we are starting to define classes */
+
+
+.dark-light {
+	background-color: rgb(44, 47, 51);
+	color: white;
+}
+
+.dark-dark {
+	background-color: rgb(35, 39, 42);
+	color: white;
+}
+
 .topnav {
 
 	padding: 30px;
 	max-height: 50px;
 	overflow: hidden;
-	background-color: rgb(44, 47, 51);
+	text-align: center;
 	/* border-radius: 5px;
 	border-color: #ffffff; */
 }
 
 .topnav button {
-	float: left;
-	display: block;
+	/* float: left; */
+	/* display: block; */
 	text-align: center;
 	padding: 14px 16px;
 	color: #000000;
-	margin-left: 5px;
-}
 
-.topnav button:hover {
-	background-color: white;
-	color: black;
+	margin-left: 5px;
+	margin-top: 5px;
 }
 
 .topnav button.active {
-	background-color: grey;
-	color: RGB(153, 170, 181);
-}
-
-.content {
-	text-align: center;
+	background-color: white;
+	color: black;
 }
 
 .table {
@@ -58,15 +72,29 @@ button {
 	position: relative;
 	left: 0;
 	bottom: 0;
-	height: 100px;
+	max-height: 100px;
+	min-height: 60px;
+	height: auto;
 	width: 100%;
 	overflow: hidden;
-	background-color: rgb(44, 47, 51);
+}
+
+.footer a {
+	align-items: center;
+	vertical-align: middle;
+	bottom: 10px;
+	color: rgb(110, 112, 132);
+}
+
+.footer a:hover {
+	text-decoration: none;
+}
+
+.footer a:visited {
+	color: rgb(110, 112, 132);
 }
 
 .header {
-	background-color: rgb(35, 39, 42);
-	color: white;
 	position: sticky;
 	top: 0;
 	left: 0;
