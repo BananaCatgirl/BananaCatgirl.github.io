@@ -23,6 +23,17 @@ button:focus {
 	border-color: red;
 }
 
+table,
+th,
+td {
+	border: 5px solid rgb(179, 0, 255);
+	border-collapse: collapse;
+	empty-cells: show;
+	margin: auto;
+	gap: 5px;
+	background-color: black;
+}
+
 /* here we are starting to define classes */
 
 
@@ -60,11 +71,6 @@ button:focus {
 .topnav button.active {
 	background-color: white;
 	color: black;
-}
-
-.table {
-	border: 5px solid green;
-	margin: auto;
 }
 
 .footer {
