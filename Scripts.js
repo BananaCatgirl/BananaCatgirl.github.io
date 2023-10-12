@@ -1,6 +1,6 @@
-window.onscroll = function () { scrollFunction() };
+window.onscroll = function () { TopNavScroll() };
 
-function scrollFunction() {
+function TopNavScroll() {
 	if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
 		document.getElementById("topnav").style.padding = "10px 10px";
 	} else {

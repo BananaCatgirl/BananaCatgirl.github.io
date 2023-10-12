@@ -25,7 +25,9 @@ button:focus {
 
 table,
 th,
-td {
+td,
+thead,
+tfoot {
 	border: 5px solid rgb(179, 0, 255);
 	border-collapse: collapse;
 	empty-cells: show;
