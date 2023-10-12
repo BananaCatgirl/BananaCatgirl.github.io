@@ -28,12 +28,13 @@ th,
 td,
 thead,
 tfoot {
-	border: 5px solid rgb(179, 0, 255);
-	border-collapse: collapse;
+	/* border: 5px solid rgb(179, 0, 255); */
+	/* border-collapse: collapse; */
 	empty-cells: show;
 	margin: auto;
 	gap: 5px;
-	background-color: black;
+	/* background-color: black; */
+	background-color: transparent;
 }
 
 article {
@@ -56,6 +57,9 @@ article {
 
 /* here we are starting to define classes */
 
+.table {
+	align-self: center;
+}
 
 .dark-light {
 	background-color: rgb(44, 47, 51);
